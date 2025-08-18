@@ -70,5 +70,6 @@ for c in session.query(Category).all():
         print("  (Нет продуктов)")
     print()
 
+
 # 🔚 Закрываем сессию
 session.close()
